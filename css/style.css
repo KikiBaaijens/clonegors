@@ -1,0 +1,286 @@
+ /*-----------------------------------fonts*/
+
+ @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Metal+Mania');
+
+ /* base clearance */
+
+ html,
+ body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+ }
+ 
+/* use to make difference in height between pages lesser*/
+
+.same-height {
+ min-height: 500px;
+}
+
+ /*----------------------------------colors*/
+
+ body {
+  background-color: #ff99ff;
+ }
+
+ .menu-color-index {
+  background-color: #cc00cc;
+ }
+
+ .menu-color-ontour {
+  background-color: #cc0099;
+ }
+
+ .menu-color-music {
+  background-color: #cc3399;
+ }
+
+ .menu-color-bookus {
+  background-color: #cc6699;
+ }
+
+ .fa {
+  color: #000;
+ }
+
+ /*----------------------------------header*/
+
+ header {
+  margin: 0;
+  margin: 0 auto;
+ }
+
+ .logo {
+  background: url(../images/gorslogoklein2.png);
+  background-color: #660066;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  min-height: 220px;
+ }
+
+ /*------------------------------navigation*/
+
+ #nav {
+  margin: 0;
+ }
+
+ #nav li {
+  padding: 0;
+ }
+
+ .menuitem {
+  height: 125px;
+  text-align: center;
+  padding: 0;
+  opacity: 0.7;
+  transition: ease-in-out .3s;
+ }
+
+ .menuitem:hover {
+  opacity: 1;
+ }
+
+ .menuitem a {
+  width: 100%;
+  text-decoration: none;
+  height: 120px;
+ }
+
+ .menuitem a i {
+  padding-top: 22px;
+  display: block;
+  font-size: 26px;
+ }
+
+ .menuitem span {
+  display: block;
+  width: 100%;
+  padding-top: 7px;
+  text-align: center;
+  font-family: 'Metal Mania', serif;
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 4px;
+ }
+
+ /*--------------------band and general properties text*/
+
+ #live {
+  padding: 25px;
+  max-width: 80%;
+ }
+
+ .center {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+ }
+
+ h2 {
+  font-family: 'Metal Mania', serif;
+  font-size: 35px;
+  text-shadow: 4px 4px 2px rgba(168, 48, 144, 0.66);
+  padding: 10px;
+ }
+
+ h3 {
+  font-family: 'Metal Mania', serif;
+  font-size: 20px;
+  text-align: center;
+ }
+
+ .thumbnail {
+  margin: 0 auto;
+  background-color: #660066;
+  border-color: #000;
+ }
+
+ /*-------------------------------media queries*/
+
+ /* Extra small devices (phones, 600px and down) */
+
+ @media only screen and (max-width: 600px) {
+  .flex-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 25px;
+  }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+
+ @media only screen and (min-width: 600px) {
+  .flex-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 25px;
+  }
+ }
+
+ /* Medium devices (landscape tablets, 768px and up) */
+
+ @media only screen and (min-width: 768px) {
+  .flex-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 25px;
+  }
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+
+ @media only screen and (min-width: 992px) {
+  .flex-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 25px;
+  }
+ }
+
+
+ /*----------------------------------footer*/
+
+ footer {
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: #660066;
+
+ }
+
+ .social-links li a img {
+  width: 35px;
+  height: 35px;
+ }
+
+ ul .links {
+  padding-top: 10px;
+  padding-bottom: 20px;
+ }
+
+ .fa-at {
+  width: 35px;
+  height: 35px;
+ }
+
+ /*----------------------------------ontour*/
+
+ #ontour-table {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+ }
+
+ #ontour-caption {
+  display: table-caption;
+  text-align: center;
+ }
+
+ #ontour-header {
+  display: table-header-group;
+  background-color: #ff00bf;
+  font-weight: bold;
+  font-size: 1em;
+  color: #660066;
+ }
+
+ .ontour-header-cell {
+  display: table-cell;
+  padding: 5px;
+  text-align: center;
+  border-bottom: 2px solid #660066;
+  word-wrap: break-word;
+
+ }
+
+ #ontour-table-body {
+  display: table-row-group;
+ }
+
+ .ontour-table-row {
+  display: table-row;
+ }
+
+ .ontour-body-cell {
+  display: table-cell;
+  padding: 5px;
+  word-wrap: break-word;
+ }
+
+ /*----------------------------------bookus*/
+
+ .center-form {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  margin: 0 auto;
+  max-width: 70%;
+ }
+
+ .bookform {
+  margin-bottom: 10px;
+ }
+
+ button {
+  background-color: #660066;
+  color: #ff00bf;
+ }
+
+.lower {
+ margin-top: 35px;
+}
+ /*-----------------------------------music*/
+
+audio {
+ max-width: 100%;
+}
+
+.extra-padding {
+ padding-bottom: 50px;
+}
